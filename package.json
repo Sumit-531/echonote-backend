@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "imports": {
-    "#config/*": "./src/config/*"
+    "#config/*": "./src/config/*",
+    "#models/*": "./src/models/*",
+    "#routes/*": "./src/routes/*"
   },
   "scripts": {
     "dev": "node --watch src/index.js"
